@@ -21,5 +21,8 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
   version="4.0"
   metadata-complete="true">
-
+  <welcome-file-list>
+  <!--  修改了web.xml后推荐重启tomcat服务器 -->
+    <welcome-file>/welcome.jsp</welcome-file>
+  </welcome-file-list>
 </web-app>
